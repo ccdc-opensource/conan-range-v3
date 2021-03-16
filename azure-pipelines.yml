@@ -15,3 +15,8 @@ extends:
     # This is a header only library, build only one configuration
     build_types:
       - Release
+    platforms:
+      - centos7_gcc9
+      - ubuntu2004_gcc10
+      - macos1015_xcode11
+      - win2019_vs2019
